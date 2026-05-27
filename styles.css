@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0
+}
+
+.section4{
+    background-color: #3882F6;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    font-size: 36px;
+}
+
+.section4 .text .header{
+    font-weight: 900;
+}
+
+.footer{
+    color: white;
+    background-color: #140f20c4;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* makes sure padding doesn't add extra width */
+}
