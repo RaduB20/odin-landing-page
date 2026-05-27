@@ -8,23 +8,105 @@ body {
     margin: 0
 }
 
-.section4{
+/******Information from Odin*******/
+
+.section1, .footer{
+    background-color: #1F2937;
+}
+
+.section1 .title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.section1 .text, .link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section1 .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section1 button, .section4{
     background-color: #3882F6;
-    color: #ffffff;
+}
+
+.section2 .text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+/*Styling extras*/
+button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 3px;
+}
+
+.section1 button{
+    border: none
+}
+
+.section4 button{
+    border: 2px solid #F9FAF8;
+}
+
+.section2 .subtext{
+    color: #020307c0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.section3 .text{
+    font-style: italic;
+}
+
+.section3 .author{
+    font-weight: 900
+}
+
+.section4 .header{
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.section4 .subtext, .footer{
+    color: #E5E7EB;
+}
+
+/*Display*/
+
+.section2 .group{
+    display: flex;
+    justify-content: center;
+}
+
+.section4{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 100px;
-    font-size: 36px;
 }
 
-.section4 .text .header{
-    font-weight: 900;
-}
+
 
 .footer{
-    color: white;
-    background-color: #140f20c4;
     padding: 30px;
     text-align: center;
     width: 100%;
